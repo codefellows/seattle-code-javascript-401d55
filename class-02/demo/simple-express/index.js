@@ -1,6 +1,6 @@
 'use strict';
 
-const server = require('./lib/server.js');
+const server = require('./lib/server2.js');
 const PORT = process.env.PORT || 3001;
 
 // entry point!

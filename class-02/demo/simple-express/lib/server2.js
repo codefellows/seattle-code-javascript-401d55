@@ -16,13 +16,15 @@ app.use(validator); //validator middleware
 app.get('/sum', handleSum); // handle sum method
 app.use(handleError); // error handler, 90% of the time errors go at the bottom.
 
-app.use('/*', () => {}); // catch all route
+app.use('/*', (req, res) => {
+  res.send('Check over here!');
+}); // catch all route
 
 module.exports = {
   app,
   start: (port) => {
     app.listen(port, () => {
-      console.log('Server is running!' + port);
+      console.log('Server is running on PORT ::', port);
     });
   }
 };
