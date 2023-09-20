@@ -1,0 +1,50 @@
+
+var ftGUID_6464983="55674845202946";
+var ftConfID_6464983="0";
+var ftParams_6464983="ft_custom=GbhIkW3POet1x0mQa9NJ6m_MUOlryj6FasxOmGnLOZgayUTtY_kmRA==&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgyazo.com%2F30fc534c308e91a0b29efa8cc2779ac8&gdpr=0&cachebuster=751075.5064760022&ft_dv=%5B%25ft_dv%25%5D";
+var ftKeyword_6464983="";
+var ftCustom_6464983="GbhIkW3POet1x0mQa9NJ6m_MUOlryj6FasxOmGnLOZgayUTtY_kmRA==";
+var ftSection_6464983="";
+var ftSegment_6464983="akhq,ajwk,xl9160,xl316,aixo,ajv0,xl1146,xl8,xl24,xl39,xl40,xl3194,ajh6,ajca,xl1006,akyq,akys,xl25,ali1,ali4";
+var ftSegmentList_6464983=[{s:'akhq'},{s:'ajwk'},{s:'xl9160'},{s:'xl316'},{s:'aixo',t:55762304},{s:'ajv0'},{s:'xl1146'},{s:'xl8'},{s:'xl24'},{s:'xl39'},{s:'xl40'},{s:'xl3194'},{s:'ajh6'},{s:'ajca'},{s:'xl1006'},{s:'akyq'},{s:'akys'},{s:'xl25'},{s:'ali1'},{s:'ali4'}];
+var ftRuleMatch_6464983="0";
+var ftTimestamp_6464983="1695223198";
+var ftGeoC2_6464983="us";
+var ftGeoState_6464983="wa";
+var ftGeoCity_6464983="federal way";
+var ftISP_6464983="comcast cable communications inc.";
+var ftSpeed_6464983="cable";
+var ftConnType_6464983="wifi";
+var ftDMA_6464983="819";
+var ftLong_6464983="-122.31";
+var ftLat_6464983="47.31";
+var ftPostal_6464983="98003";
+var ftTimeZone_6464983="-700";
+var ftMobileCarrier_6464983="";
+var ftImp6464983 = {};
+ftImp6464983.privacy = "x";
+ftImp6464983.guidAge = "174";
+ftImp6464983.impID = "6FB3F20B-0003-1D13-588D-96925966C069";
+ftImp6464983.duid = "FT:55674845202946";
+
+ftImp6464983.ft_tpplid = "";
+ftImp6464983.ft_c = {};
+ftImp6464983.gdpr = "0";
+ftImp6464983.gdpr_consent = "";
+ftImp6464983.gdpr_pd = "";
+ftImp6464983.oob_consent = "";
+ftImp6464983.gdprStoredConsent = "";
+ftImp6464983.us_privacy = "";
+ftImp6464983.gpc = "0";
+
+ftImp6464983.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_6464983') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/646/6464983/4449327/js/j-6464983-4449327.js";
+    js.id = "ftscript_m6464983";
+    tag.parentNode.insertBefore(js, tag);
+}());
