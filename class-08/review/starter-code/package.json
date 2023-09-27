@@ -9,7 +9,7 @@
     "init:config": "sequelize init:config",
     "db:create": "sequelize db:create",
     "watch": "NODE_ENV=development nodemon index.js",
-    "test:watch": "NODE_ENV=test jest --watchAll",
+    "test:watch": "NODE_ENV=test jest --watchAll --verbose",
     "test": "NODE_ENV=test jest --verbose"
   },
   "keywords": [],
