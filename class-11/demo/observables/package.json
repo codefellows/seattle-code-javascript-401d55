@@ -1,0 +1,16 @@
+{
+  "name": "observables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "body.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node body.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
