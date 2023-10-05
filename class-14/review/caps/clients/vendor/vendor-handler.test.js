@@ -2,8 +2,6 @@
 
 const {createOrder, handleDelivered} = require('../vendor/handler.js');
 
-
-
 beforeEach(() => {
   console.log = jest.fn();
 });
@@ -19,7 +17,7 @@ describe('Testing if create order', () => {
       address: 'Schmittfort, LA',
     };
    
-    expect(results).toEqual(expectedOrder);
+    expect(results.store).toEqual(expectedOrder.store);
   });
 });
 

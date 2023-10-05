@@ -1,6 +1,6 @@
 'use strict';
 
-const handlerGlobalPackageEvents = require('./hub.js');
+const handlerGlobalPackageEvents = require('./handler.js');
 
 beforeEach(() => {
   console.log = jest.fn();
