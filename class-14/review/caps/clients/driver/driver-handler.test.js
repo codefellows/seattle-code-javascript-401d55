@@ -6,7 +6,7 @@ const handlePickUp = require('./handlePickup.js');
 // tells our test environment not to load socket.io-client
 jest.mock('socket.io-client', () => {
   return {
-    connect: jest.fn(() => mockSocket),  // our mockSocket will be returned when the connect method is called.
+    connect: () => mockSocket,  // our mockSocket will be returned when the connect method is called.
   };
 });
 
@@ -18,7 +18,7 @@ beforeEach(() => {
 
 describe('Testing the handlePickUp handler', () => { 
   test('Should console log', () => {
-    jest.runAllTimers(); // lets jest track any timeout functionality and waits for those to end before we expect values to work 
+    jest.runAllTimers(); // lets jest track any timeout functionality and waits for those to end before we expect values to be present in the tests 
     handlePickUp({
       store: '1-206-flowers',
       orderId: 'e3669048-7313-427b-b6cc-74010ca1f8f0',
