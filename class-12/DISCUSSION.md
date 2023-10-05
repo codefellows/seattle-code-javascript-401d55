@@ -22,7 +22,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 
 1. What is the difference between WebSocket and Socket.IO? (think Git and GitHub, or OAuth and Auth0).
 1. When would you use Socket.IO?
-1. When would you use WebSockets? 
+1. When would you use WebSockets?
 
 ## Videos
 
