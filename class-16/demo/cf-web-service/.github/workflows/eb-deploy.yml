@@ -20,8 +20,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: YOUR-EB-APPLICATION-NAME
-        environment_name: YOUR-EB-ENVIRONMENT-NAME
+        application_name: CF-Web-Services
+        environment_name: CFWebServices-env
         version_label: 12345
         region: us-west-2
         deployment_package: deploy.zip
