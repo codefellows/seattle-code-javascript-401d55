@@ -1,0 +1,11 @@
+$autumnal-theme: rgb(195, 62, 0);
+$background-color: rgb(189, 188, 188);
+$secondary-color: rgb(89, 255, 238);
+
+$main-font: "Times New Roman";
+
+@mixin banana($value: red) {
+  color: $value;
+  background-color: $background-color;
+  margin: 5px;
+}
