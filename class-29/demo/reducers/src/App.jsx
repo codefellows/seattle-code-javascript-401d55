@@ -62,8 +62,6 @@ function App() {
       }
     });
   }
-
-  console.log(state);
   return (
     <>
       <header>
