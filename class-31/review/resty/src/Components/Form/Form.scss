@@ -1,0 +1,32 @@
+$backgroundColor: #efefef;
+$radius: 40%;
+$selectedBg: greenyellow;
+
+.selectedMethod {
+  background: $selectedBg;
+  border: 1px solid lightgreen;
+}
+
+form {
+  display: inline-block;
+  margin: auto;
+  width: 200px;
+
+  label {
+    display: flex;
+    margin: 1rem 0;
+
+    &.methods {
+      span {
+        cursor: pointer;
+        margin-right: 1rem;
+        padding: .25rem .5rem;
+
+        &:hover, &.active {
+          background: white;
+          border: 1px solid black;
+        }
+      }
+    }
+  }
+}
