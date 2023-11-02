@@ -24,8 +24,8 @@ const userModel = (sequelize, DataTypes) => {
     token: {
       type: DataTypes.VIRTUAL,
       get() {
-        // this funciton runs whenever I refer to this property on the record
-        return jwt.sign({ username: this.username }, SECRET); // function for creating our claim.
+        // this funciton runs whenever I refer to this property on thce record
+        return jwt.sign({ username: this.username, capabilities: this.capabilities }, SECRET); // function for creating our claim.
       }
     },
     capabilities: {

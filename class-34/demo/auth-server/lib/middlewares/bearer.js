@@ -5,6 +5,7 @@ const { UserModel } = require('../models');
 async function bearerAuth(req, res, next) {
   if (!req.headers.authorization) {
     next('Invalid Login');
+    return;
   }
 
   let token = req.headers.authorization.split(' ')[1];

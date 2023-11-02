@@ -5,8 +5,10 @@ const { UserModel } = require('../models');
 
 async function basicAuth(req, res, next) {
   // does the request contain auth headers?
+  console.log(req.headers.authorization);
   if (!req.headers.authorization) {
     next('Invalid login');
+    return;
   }
   // is the encoded header valid
   let encodedString = req.headers.authorization.split(' ')[1];

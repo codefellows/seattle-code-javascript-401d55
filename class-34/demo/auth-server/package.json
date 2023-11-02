@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=test jest --verbose --coverage",
     "start": "NODE_ENV=production node index.js",
     "dev": "NODE_ENV=development nodemon index.js"
   },
@@ -22,5 +22,9 @@
     "pg": "^8.11.3",
     "sequelize": "^6.33.0",
     "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
   }
 }
